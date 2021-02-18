@@ -1,0 +1,459 @@
+/** Theme: Contrate quem luta **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+    background: #b3262b;
+    color: #fff;
+}
+
+.topo {
+    background: #EB3137;
+    padding: 100px 10px 10px;
+}
+
+.topo::after {
+    content: '';
+    height: 120px;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: -10px;
+    transform: skewY(-1.5deg);
+    width: 100%;
+    background: #EB3137;
+    z-index: -1;
+}
+
+.botao-topo {
+    background: #303030;
+    padding: 23px 45px;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.botao-topo:hover {
+    background: #fff;
+    color: #303030;
+}
+
+.logo-mtst {
+    width: 50%;
+    float: left;
+    display: contents;
+}
+
+.contrate-logo img {
+    max-width: 400px;
+}
+
+.row-contrate {
+    width: 100%;
+    padding: 50px 0 0;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+h3 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+
+p {
+    margin: 0;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    padding: 30px 0;
+}
+
+.desc {
+    padding: 30px 0;
+}
+
+.row-como-funciona {
+    display: table;
+}
+
+.bloco-como-funciona {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 80px;
+}
+
+.bloco-como-funciona h3, .bloco-como-funciona p {
+    color: #303030;
+}
+
+.especialidades {
+    background: #303030;
+    min-height: 100px;
+    position: relative;
+    margin-top: -58px;
+}
+
+.especialidades::before {
+    content: '';
+    height: 40px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    transform: skewY(-1deg);
+    width: 100%;
+    background: #303030;
+}
+
+.trabalhadores img {
+    position: absolute;
+    margin-top: -48px;
+}
+
+.gif-zap {
+    margin: 0 auto;
+}
+
+.bloco-especialidades h3 {
+    padding: 190px 0 30px;
+}
+
+.col-esq {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.col-dir {
+    width: 50%;
+    display: inline-block;
+}
+
+.splide__list {
+    width: 100%;
+}
+
+.coluna-especialidades p {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.splide__arrow--prev {
+    background: url(../imgs/seta-esq.png);
+    left: 0;
+}
+
+.splide__arrow--next {
+    right: 1em;
+    background: url(../imgs/seta-dir.png);
+}
+
+.splide__arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 39px!important;
+    height: 70px!important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    opacity: 1;
+}
+
+.splide__arrow--prev svg {
+    display: none;
+}
+
+.splide__arrow--next svg {
+    display: none;
+}
+
+.bloco-par {
+    padding-left: 120px;
+}
+
+.splide__arrow[disabled] {
+    display: none;
+}
+
+ul.splide__pagination {
+    display: none;
+}
+
+.onde-estamos {
+    background: #303030;
+    padding: 100px 10px 170px;
+}
+
+.bloco-onde-estamos {
+    max-width: 788px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 49px;
+    padding: 76px 70px;
+}
+
+.bloco-onde-estamos h3, .bloco-onde-estamos p {
+    color: #303030;
+}
+
+.bloco-onde-estamos {
+    max-width: 788px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 49px;
+    padding: 77px 120px 77px 70px;
+}
+
+.bloco-onde-estamos p {
+    padding: 10px 0 0 0;
+}
+
+.img-localizacao {
+    float: right;
+    margin-top: -290px;
+    margin-right: 120px;
+}
+
+.como-contratar {
+    padding: 60px 10px;
+    background-color: #EB3137;
+}
+
+.como-contratar .desc {
+    padding: 88px 0;
+}
+
+.como-contratar .botao-topo {
+    float: left;
+    background: #fff;
+    color: #303030;
+    margin-top: 10px;
+}
+
+.como-contratar .botao-topo:hover {
+    background: #303030;
+    color: #fff;
+}
+
+.rodape {
+    background: #303030;
+    padding: 36px 10px 60px 10px;
+}
+
+.fale-conosco {
+    margin: 0 auto;
+    display: table;
+}
+
+.fale-conosco img {
+    display: inline-flex;
+    margin: 0 15px;
+}
+
+
+.fale-conosco p {
+    display: inline-flex;
+    margin: 0 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.wrapper-arrow {
+    background: #EB3137;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 70px solid #303030;
+    margin: 0px auto;
+}
+
+.assinatura {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+@media (min-width: 1440px) {
+    .img-localizacao {
+        margin-right: 210px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contrate-logo img {
+        max-width: 300px;
+    }
+    .gif-zap img {
+        max-width: 230px;
+    }
+    .especialidades {
+        margin-top: 70px;
+    }
+    .img-localizacao {
+        margin-right: 0;
+    }
+    .trabalhadores img {
+        max-width: 80%;
+    }
+}
+
+/*** Mobile ***/
+@media (max-width: 767px) {
+    .topo {
+        padding: 30px 20px;
+    }
+    .botao-topo {
+        max-width: 60%;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+        min-width: 170px;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+    .contrate-logo img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    h1, h3 {
+        font-size: 23px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .desc {
+        padding: 40px 0 0;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.3;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .logo-mtst img {
+        max-width: 74px;
+    }
+    .topo::after {
+        margin-left: -20px;
+        height: 94px;
+    }
+    .bloco-como-funciona {
+        display: block;
+    }
+    .bloco-como-funciona {
+        display: block;
+        padding: 60px 20px 10px;
+    }
+    .gif-zap {
+        text-align: center;
+    }
+    .gif-zap img {
+        max-width: 90%;
+    }
+    .trabalhadores img {
+        max-width: 90%;
+        margin-top: -23px;
+    }
+    .bloco-especialidades h3 {
+        padding: 40% 20px 20px;
+    }
+    .especialidades::before {
+        margin-top: -4px;
+    }
+    .especialidades h3 {
+        font-size: 22px;
+    }
+    .coluna-especialidades p {
+        line-height: 2;
+        font-size: 12px;
+    }
+    .bloco-par {
+        padding-left: 50px;
+    }
+    .bloco-impar {
+        padding-left: 10px;
+    }
+    .coluna-especialidades p {
+        line-height: 2;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .especialidades {
+        margin-top: -58px;
+    }
+    .splide__arrow {
+        top: 40%;
+    }
+    .bloco-onde-estamos {
+        max-width: 100%;
+        padding: 30px 100px 30px 40px;
+    }
+    .img-localizacao {
+        max-width: 120px;
+        margin-right: 0;
+        margin-top: -105px;
+    }
+    .bloco-onde-estamos p {
+        font-size: 15px;
+        line-height: 1.3;
+        padding-top: 0;
+    }
+    .onde-estamos {
+        padding: 30px 10px 80px;
+    }
+    .arrow-down {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 50px solid #303030;
+    }
+    .como-contratar {
+        padding: 0px 20px;
+    }
+    .como-contratar .desc {
+        padding: 50px 0;
+    }
+    .como-contratar .botao-topo {
+        float: unset;
+        display: block;
+        margin: 10px auto;
+    }
+    .row-contrate {
+        margin: 0;
+    }
+}
+
